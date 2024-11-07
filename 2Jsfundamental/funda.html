@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinasi Wisata</title>
+    <link rel="stylesheet" href="funda.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Destinasi Wisata</h1>
+      <div>
+        <label for="category">Filter Kategori:</label>
+        <select id="category">
+          <option value="all">Semua</option>
+          <option value="pantai">Pantai</option>
+          <option value="gunung">Gunung</option>
+          <option value="kota">Kota</option>
+          <option value="budaya">Budaya</option>
+        </select>
+        <button id="filterButton">Filter</button>
+      </div>
+      <div id="destination-list"></div>
+    </div>
+
+    <script src="funda.js"></script>
+  </body>
+</html>

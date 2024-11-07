@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variable Examples</title>
+  </head>
+  <body>
+    <h1>JavaScript Variables Example</h1>
+
+    <script>
+      // Menggunakan var
+      var x = 10;
+      document.write("<p>Nilai x (dengan var): " + x + "</p>");
+
+      // Menggunakan let
+      let y = 20;
+      document.write("<p>Nilai y (dengan let): " + y + "</p>");
+
+      // Menggunakan const
+      const z = 30;
+      document.write("<p>Nilai z (dengan const): " + z + "</p>");
+      // Cobalah mengubah nilai variabel
+      x = 15; // OK
+      y = 25; // OK
+      // z = 35; // Error! Karena z adalah konstanta
+      document.write("<p>Setelah diubah:</p>");
+      document.write("<p>Nilai x: " + x + "</p>");
+      document.write("<p>Nilai y: " + y + "</p>");
+      document.write("<p>Nilai z: " + z + "</p>");
+    </script>
+  </body>
+</html>
